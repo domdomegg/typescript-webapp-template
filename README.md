@@ -5,10 +5,11 @@ Personal template for creating TypeScript web applications with Next.js.
 ## Quick start
 
 1. Update the package name in `package.json`
-2. Enable 'Allow GitHub Actions to create and approve pull requests' in _Settings > Actions (General) > `Workflow permissions_
-3. Set protection on the master branch: require a pull request before merging, require reivew from code owners, require status checks to pass (select both ci options)
-4. Add the repo to the [file sync automation rules](https://github.com/domdomegg/domdomegg/blob/master/.github/workflows/repo-file-sync.yaml)
-5. Update the README, using the template commented out below
+2. Set 'Source' to 'GitHub Actions' in _Settings > Pages_
+3. Enable 'Allow GitHub Actions to create and approve pull requests' in _Settings > Actions (General) > Workflow permissions_
+4. Set protection on the master branch: require a pull request before merging, require reivew from code owners, require status checks to pass (select both ci options)
+5. Add the repo to the [file sync automation rules](https://github.com/domdomegg/domdomegg/blob/master/.github/workflows/repo-file-sync.yaml)
+6. Update the README, using the template commented out below
 
 ## Enabling API routes
 
